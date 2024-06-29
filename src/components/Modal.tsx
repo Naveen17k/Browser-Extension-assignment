@@ -94,7 +94,7 @@ const Modal: React.FC<ModalProps> = ({ isVisible, onClose, onInsert }) => {
                 <div className="flex justify-end space-x-4">
                     {chatHistory.length === 0 ? (
                         <button
-                            className="flex items-center px-4 py-2 bg-[#3B82F6] text-white rounded-md hover:bg-blue-600 focus:outline-none"
+                            className="flex items-center px-5 py-2 bg-[#3B82F6] text-white rounded-md hover:bg-blue-600 focus:outline-none"
                             onClick={handleGenerate}
                         >
                             <span className="mr-2 mt-1 transition ease-out duration-300">
@@ -110,7 +110,7 @@ const Modal: React.FC<ModalProps> = ({ isVisible, onClose, onInsert }) => {
                     ) : (
                         <>
                             <button
-                                className="flex items-center px-4 py-2 border-solid border-gray-500 bg-gray-100 text-gray-700 rounded-lg focus:outline-none hover:bg-gray-200"
+                                className="flex items-center px-5 py-2 border-solid border-gray-500 bg-gray-100 text-gray-700 rounded-lg focus:outline-none hover:bg-gray-200"
                                 onClick={handleInsert}
                             >
                                 <span className="mr-2 mt-1">
@@ -121,15 +121,15 @@ const Modal: React.FC<ModalProps> = ({ isVisible, onClose, onInsert }) => {
                                 Insert
                             </button>
                             <button
-                                className="flex items-center px-4 py-2 bg-[#3B82F6] text-white rounded-md hover:bg-blue-600 focus:outline-none"
+                                className="flex items-center px-5 py-2 bg-[#3B82F6] text-white rounded-md hover:bg-blue-600 focus:outline-none"
                                 onClick={handleGenerate}
                             >
                                 <span className="mr-2 mt-1 transition ease-out duration-300">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="24" viewBox="0 0 17 24" fill="none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 17 24" fill="none">
                                         <path d="M8.5 3.24541V0L4.25 4.32724L8.5 8.65459V5.40903C12.006 5.40903 14.875 8.32995 14.875 11.9C14.875 12.9818 14.6094 14.0098 14.131 14.929L15.6719 16.4978C16.5217 15.1454 17 13.5766 17 11.9C17 7.14005 13.1749 3.24541 8.5 3.24541ZM8.5 18.391C4.9937 18.391 2.125 15.4698 2.125 11.9C2.125 10.8182 2.39062 9.79046 2.8687 8.87081L1.32812 7.30224C0.478072 8.60041 0 10.2232 0 11.9C0 16.6599 3.82511 20.5546 8.5 20.5546V23.8L12.75 19.4728L8.5 15.1454V18.391Z" fill="white" />
                                     </svg>
                                 </span>
-                                Re-generate
+                                Regenerate
                             </button>
                         </>
                     )}
