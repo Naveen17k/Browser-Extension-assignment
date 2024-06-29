@@ -1,5 +1,14 @@
 # ChatGPT Writer Take-Home Coding Assignment
 
+
+
+
+https://github.com/Naveen17k/Extension-assignment/assets/122218075/99e05066-4bd4-462e-8547-6c977dcbcec3
+
+
+
+
+
 https://chatgptwriter.ai
 
 This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with command: `pnpm create plasmo --with-tailwindcss`.
@@ -7,6 +16,9 @@ This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with
 ## Getting Started
 
 1. Install dependencies: `pnpm i` or `pnp i`
+
+
+
 
 2. Run the development server:
 
