@@ -1,9 +1,13 @@
+
+
+
 # ChatGPT Writer Take-Home Coding Assignment
 
 
 
+https://github.com/Naveen17k/Browser-Extension-assignment/assets/122218075/f5a1a8e6-0c31-45b0-9ed5-eb3e13cc7392
 
-https://github.com/Naveen17k/Extension-assignment/assets/122218075/99e05066-4bd4-462e-8547-6c977dcbcec3
+
 
 
 
