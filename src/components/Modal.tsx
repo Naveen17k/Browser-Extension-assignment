@@ -36,7 +36,6 @@ const Modal: React.FC<ModalProps> = ({ isVisible, onClose, onInsert }) => {
 
         setChatHistory(newHistory);
         setCommand(""); // Clear the command input
-        setButtonText("Re-generate"); // Change button text to "Re-generate"
         setShowRegenerate(true); // Show the Regenerate button after generating the first response
     };
 
@@ -122,7 +121,6 @@ const Modal: React.FC<ModalProps> = ({ isVisible, onClose, onInsert }) => {
                             </button>
                             <button
                                 className="flex items-center px-5 py-2 bg-[#3B82F6] text-white rounded-md hover:bg-blue-600 focus:outline-none"
-                                onClick={handleGenerate}
                             >
                                 <span className="mr-2 mt-1 transition ease-out duration-300">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 17 24" fill="none">
